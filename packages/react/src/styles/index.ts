@@ -5,7 +5,8 @@ import {
   fontWeights,
   lineHeights,
   radii,
-  space,
+  // eslint-disable-next-line prettier/prettier
+  space
 } from '@ignite-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
