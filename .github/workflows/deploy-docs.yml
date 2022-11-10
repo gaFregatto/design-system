@@ -8,13 +8,13 @@ on:
 jobs: 
   build-and-deploy:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - name: Checkout
       uses: actions/checkout@v3
 
       - name: Setup Node.js
-      uses: action/setup-node@v3
-      widt:
+      uses: actions/setup-node@v3
+      with:
         node-version: 16
 
       - run: npm ci
@@ -23,6 +23,6 @@ jobs:
 
       - name: Deploy storybook
       working-directory: ./packages/docs
-      run: npm run dev deploy-storybook -- --ci --existing-output-dir=storybook-static
+      run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
       env: 
         GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
