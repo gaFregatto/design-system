@@ -1,0 +1,2 @@
+import{A as t}from"./index.910c0b59.js";import"./index.de6b2335.js";import"./iframe.089fd079.js";import"./index.98cffece.js";import"./jsx-runtime.e72dd135.js";const e={title:"Date display/Avatar",component:t,args:{src:"https://github.com/gaFregatto.png",alt:"Guilherme Arai Fregatto"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},m=["Primary","WithFallback"];export{p as Primary,c as WithFallback,m as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.68341d5e.js.map
