@@ -7,7 +7,7 @@ import {
   radii,
   // eslint-disable-next-line prettier/prettier
   space
-} from '@ignite-ui/tokens'
+} from '@gafregatto-ignite-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
